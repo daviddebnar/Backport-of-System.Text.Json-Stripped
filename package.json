@@ -1,5 +1,5 @@
 {
-    "name": "com.daviddebnar.backport-system-text-json-min",
+    "name": "com.daviddebnar.backport-system-text-json-stripped",
     "version": "0.0.1",
     "displayName": "Backport of System.Text.Json (Stripped)",
     "description": "Backport of System.Text.Json for C# 7 based on .NET Runtime version 6.0.22, stripped down to core Reader and Writer classes",
