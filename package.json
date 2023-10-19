@@ -1,0 +1,20 @@
+{
+    "name": "com.daviddebnar.backport-system-text-json-min",
+    "version": "0.0.1",
+    "displayName": "Minimal System Text Json",
+    "description": "Minimal port of System.Text.Json for C# 7 based on .NET Runtime version 6.0.22",
+    "unity": "2019.1",
+    "unityRelease": "0a0",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/api/system.text.json",
+    "changelogUrl": "",
+    "licensesUrl": "",
+    "dependencies": {},
+    "keywords": [
+        "dotnet",
+        "json"
+    ],
+    "author": {
+        "name": "Dávid Debnár",
+        "url": "https://daviddebnar.com"
+    }
+}

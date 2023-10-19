@@ -1,0 +1,91 @@
+﻿#nullable enable
+
+namespace System
+{
+    internal static partial class SR
+    {
+        public const string BufferWriterAdvancedTooFar = "SR.BufferWriterAdvancedTooFar: {0}";
+        public const string BufferMaximumSizeExceeded = "SR.BufferMaximumSizeExceeded: {0}";
+        public const string CallFlushToAvoidDataLoss = "SR.CallFlushToAvoidDataLoss: {0}";
+        public const string PropertyNameTooLarge = "SR.PropertyNameTooLarge: {0}";
+        public const string ValueTooLarge = "SR.ValueTooLarge: {0}";
+        public const string SpecialNumberValuesNotSupported = "SR.SpecialNumberValuesNotSupported";
+        public const string FailedToGetLargerSpan = "SR.FailedToGetLargerSpan";
+        public const string MaxDepthMustBePositive = "SR.MaxDepthMustBePositive";
+        public const string CommentHandlingMustBeValid = "SR.CommentHandlingMustBeValid";
+        public const string DepthTooLarge = "SR.DepthTooLarge: {0}, {1}";
+        public const string ZeroDepthAtEnd = "SR.ZeroDepthAtEnd: {0}";
+        public const string EmptyJsonIsInvalid = "SR.EmptyJsonIsInvalid";
+        public const string CannotSkip = "SR.CannotSkip";
+        public const string InvalidComparison = "SR.InvalidComparison: {0}";
+        public const string InvalidCast = "SR.InvalidCast: {0}, {1}";
+        public const string JsonElementHasWrongType = "SR.JsonElementHasWrongType: {0}, {1}";
+        public const string ArrayDepthTooLarge = "SR.ArrayDepthTooLarge: {0}";
+        public const string MismatchedObjectArray = "SR.MismatchedObjectArray: {0}";
+        public const string TrailingCommaNotAllowedBeforeArrayEnd = "SR.TrailingCommaNotAllowedBeforeArrayEnd";
+        public const string TrailingCommaNotAllowedBeforeObjectEnd = "SR.TrailingCommaNotAllowedBeforeObjectEnd";
+        public const string EndOfStringNotFound = "SR.EndOfStringNotFound";
+        public const string RequiredDigitNotFoundAfterSign = "SR.RequiredDigitNotFoundAfterSign: {0}";
+        public const string RequiredDigitNotFoundAfterDecimal = "SR.RequiredDigitNotFoundAfterDecimal: {0}";
+        public const string RequiredDigitNotFoundEndOfData = "SR.RequiredDigitNotFoundEndOfData";
+        public const string ExpectedEndAfterSingleJson = "SR.ExpectedEndAfterSingleJson: {0}";
+        public const string ExpectedEndOfDigitNotFound = "SR.ExpectedEndOfDigitNotFound: {0}";
+        public const string ExpectedNextDigitEValueNotFound = "SR.ExpectedNextDigitEValueNotFound: {0}";
+        public const string ExpectedSeparatorAfterPropertyNameNotFound = "SR.ExpectedSeparatorAfterPropertyNameNotFound: {0}";
+        public const string ExpectedStartOfPropertyNotFound = "SR.ExpectedStartOfPropertyNotFound: {0}";
+        public const string ExpectedStartOfPropertyOrValueNotFound = "SR.ExpectedStartOfPropertyOrValueNotFound";
+        public const string ExpectedStartOfPropertyOrValueAfterComment = "SR.ExpectedStartOfPropertyOrValueAfterComment: {0}";
+        public const string ExpectedStartOfValueNotFound = "SR.ExpectedStartOfValueNotFound: {0}";
+        public const string ExpectedValueAfterPropertyNameNotFound = "SR.ExpectedValueAfterPropertyNameNotFound";
+        public const string FoundInvalidCharacter = "SR.FoundInvalidCharacter: {0}";
+        public const string InvalidEndOfJsonNonPrimitive = "SR.InvalidEndOfJsonNonPrimitive: {0}";
+        public const string ObjectDepthTooLarge = "SR.ObjectDepthTooLarge: {0}";
+        public const string ExpectedFalse = "SR.ExpectedFalse: {0}";
+        public const string ExpectedNull = "SR.ExpectedNull: {0}";
+        public const string ExpectedTrue = "SR.ExpectedTrue: {0}";
+        public const string InvalidCharacterWithinString = "SR.InvalidCharacterWithinString: {0}";
+        public const string InvalidCharacterAfterEscapeWithinString = "SR.InvalidCharacterAfterEscapeWithinString: {0}";
+        public const string InvalidHexCharacterWithinString = "SR.InvalidHexCharacterWithinString: {0}";
+        public const string EndOfCommentNotFound = "SR.EndOfCommentNotFound";
+        public const string ExpectedJsonTokens = "SR.ExpectedJsonTokens";
+        public const string NotEnoughData = "SR.NotEnoughData";
+        public const string ExpectedOneCompleteToken = "SR.ExpectedOneCompleteToken";
+        public const string InvalidCharacterAtStartOfComment = "SR.InvalidCharacterAtStartOfComment: {0}";
+        public const string UnexpectedEndOfDataWhileReadingComment = "SR.UnexpectedEndOfDataWhileReadingComment";
+        public const string UnexpectedEndOfLineSeparator = "SR.UnexpectedEndOfLineSeparator";
+        public const string InvalidLeadingZeroInNumber = "SR.InvalidLeadingZeroInNumber: {0}";
+        public const string CannotWriteCommentWithEmbeddedDelimiter = "SR.CannotWriteCommentWithEmbeddedDelimiter";
+        public const string CannotEncodeInvalidUTF8 = "SR.CannotEncodeInvalidUTF8: {0}";
+        public const string CannotEncodeInvalidUTF16 = "SR.CannotEncodeInvalidUTF16: {0}";
+        public const string CannotReadInvalidUTF16 = "SR.CannotReadInvalidUTF16: {0}";
+        public const string CannotReadIncompleteUTF16 = "SR.CannotReadIncompleteUTF16";
+        public const string CannotTranscodeInvalidUtf8 = "SR.CannotTranscodeInvalidUtf8";
+        public const string CannotTranscodeInvalidUtf16 = "SR.CannotTranscodeInvalidUtf16";
+        public const string FormatByte = "SR.FormatByte";
+        public const string FormatSByte = "SR.FormatSByte";
+        public const string FormatInt16 = "SR.FormatInt16";
+        public const string FormatInt32 = "SR.FormatInt32";
+        public const string FormatInt64 = "SR.FormatInt64";
+        public const string FormatUInt16 = "SR.FormatUInt16";
+        public const string FormatUInt32 = "SR.FormatUInt32";
+        public const string FormatUInt64 = "SR.FormatUInt64";
+        public const string FormatSingle = "SR.FormatSingle";
+        public const string FormatDouble = "SR.FormatDouble";
+        public const string FormatDecimal = "SR.FormatDecimal";
+        public const string FormatBoolean = "SR.FormatBoolean";
+        public const string FormatDateTime = "SR.FormatDateTime";
+        public const string FormatDateTimeOffset = "SR.FormatDateTimeOffset";
+        public const string FormatTimeSpan = "SR.FormatTimeSpan";
+        public const string FormatGuid = "SR.FormatGuid";
+        public const string CannotDecodeInvalidBase64 = "SR.CannotDecodeInvalidBase64";
+        public const string CannotWriteEndAfterProperty = "SR.CannotWriteEndAfterProperty: {0}";
+        public const string CannotStartObjectArrayWithoutProperty = "SR.CannotStartObjectArrayWithoutProperty: {0}";
+        public const string CannotStartObjectArrayAfterPrimitiveOrClose = "SR.CannotStartObjectArrayAfterPrimitiveOrClose: {0}";
+        public const string CannotWriteValueWithinObject = "SR.CannotWriteValueWithinObject: {0}";
+        public const string CannotWritePropertyAfterProperty = "SR.CannotWritePropertyAfterProperty";
+        public const string CannotWritePropertyWithinArray = "SR.CannotWritePropertyWithinArray: {0}";
+        public const string CannotWriteValueAfterPrimitiveOrClose = "SR.CannotWriteValueAfterPrimitiveOrClose: {0}";
+        public const string TextEncoderDoesNotImplementMaxOutputCharsPerInputChar = "SR.TextEncoderDoesNotImplementMaxOutputCharsPerInputChar";
+        public const string StreamNotWritable = "SR.StreamNotWritable";
+    }
+}
