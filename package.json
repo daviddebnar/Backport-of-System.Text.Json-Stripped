@@ -1,8 +1,8 @@
 {
     "name": "com.daviddebnar.backport-system-text-json-min",
     "version": "0.0.1",
-    "displayName": "Minimal Backport of System.Text.Json",
-    "description": "Minimal port of System.Text.Json for C# 7 based on .NET Runtime version 6.0.22",
+    "displayName": "Backport of System.Text.Json (Stripped)",
+    "description": "Backport of System.Text.Json for C# 7 based on .NET Runtime version 6.0.22, stripped down to core Reader and Writer classes",
     "unity": "2019.1",
     "unityRelease": "0a0",
     "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/api/system.text.json",
